@@ -44,6 +44,8 @@ public class App {
             }
         }
 
+        AiEnginePoolFactory.close();
+
         executorService.shutdown();
     }
 }
